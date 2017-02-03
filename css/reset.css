@@ -37,7 +37,7 @@ a{
 }
 
 body {
-	background-image: url("images/texturabody.png");
+	background-image: url("texturabody.png");
 	line-height: 1;
 }
 ol, ul {
