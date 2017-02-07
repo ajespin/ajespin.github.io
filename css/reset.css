@@ -1,27 +1,63 @@
-h1,h2,h3,h4{
-	font-size: 200%;
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 150%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, section {
+footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+a{
+	font-family: 'Sansita', sans-serif;
 
+}
 
+body {
+
+	line-height: 1;
+	font-size: 110%;
+	margin: 0cm;
+	padding: 0;
+	border: 0cm;
+	padding-bottom: 70px;
+}
+
+#About{
+	padding: 0.5cm;
+	margin-top: 1.5cm;
+}
 #foto{
 width: 150px
 }
 
 ol, ul {
-
+padding:0.5cm;
 }
-
-
-
-	margin: .5cm;
+li{
+	padding:0.2cm
 }
-
 blockquote, q {
 	quotes: none;
 }
@@ -34,21 +70,30 @@ table {
 	border-collapse: separate;
 	border-spacing: 0.75cm;
 }
-
 thead{
 	font-weight:bold;
-	font-weight:bold;
-}
-
-#top{
-	list-style-position: outside;
-}
-
-.foto{
-
 }
 .text-center{
 text-align: center;
 }
 .title-sections{
 	font-size: 150%;
+	padding: 0cm;
+	text-align: center;
+}
+.tablatop{
+	padding: 0cm;
+	margin: 0cm;
+	border: 0cm;
+}
+thead{
+	font-weight:bold;
+}
+
+.cuerpo{
+	padding:2cm;
+}
+.container{
+	text-align: inherit;
+	text-indent: 50%;
+}
