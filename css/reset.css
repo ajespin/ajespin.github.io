@@ -41,7 +41,7 @@ body {
 	margin: 0cm;
 	padding: 0;
 	border: 0cm;
-	padding-bottom: 70px;
+
 }
 
 #About{
@@ -53,10 +53,10 @@ width: 150px
 }
 
 ol, ul {
-padding:0.5cm;
+padding:0cm;
 }
 li{
-	padding:0.2cm
+	padding:0cm
 }
 blockquote, q {
 	quotes: none;
@@ -79,6 +79,8 @@ text-align: center;
 .title-sections{
 	font-size: 150%;
 	padding: 0cm;
+	border-top: 0cm;
+	margin: 0cm;
 	text-align: center;
 }
 .tablatop{
@@ -92,8 +94,12 @@ thead{
 
 .cuerpo{
 	padding:2cm;
+	padding-top: 0cm;
 }
-.container{
-	text-align: inherit;
-	text-indent: 50%;
+
+}
+#text-about{
+}
+.fix{
+	margin: 0 auto;
 }
