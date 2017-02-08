@@ -120,3 +120,6 @@ p {
 	.forma{
 		padding-top: 2rem;
 	}
+	.nav>li>a>img {
+	    max-width: 25px;
+	}
