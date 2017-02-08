@@ -45,7 +45,6 @@ body {
 }
 
 #About{
-	padding: 0.5cm;
 	margin-top: 1.5cm;
 }
 #foto{
@@ -56,7 +55,7 @@ ol, ul {
 padding:0cm;
 }
 li{
-	padding:0cm
+
 }
 blockquote, q {
 	quotes: none;
@@ -78,9 +77,9 @@ text-align: center;
 }
 .title-sections{
 	font-size: 150%;
-	padding: 0cm;
+	padding-top: 4rem;
 	border-top: 0cm;
-	margin: 0cm;
+	margin-top: 0rem;
 	text-align: center;
 }
 .tablatop{
@@ -93,13 +92,24 @@ thead{
 }
 
 .cuerpo{
-	padding:2cm;
+	padding:10%;
 	padding-top: 0cm;
 }
 
+p {
+    padding: 5%;
+    padding-left: 16%;
+    background: url(../images/fotoantonio.jpg) left/6rem;
+    background-repeat: no-repeat;
 }
-#text-about{
-}
-.fix{
-	margin: 0 auto;
-}
+.navbar-nav {
+    float: left;
+    margin: 0;
+    padding-left: 10%;
+	}
+	.navbar-inverse {
+    background-color: rgba(28, 51, 87, 0.85);
+	}
+	.navbar-inverse .navbar-nav>li>a {
+	    color: #fdfbfb;
+	}
