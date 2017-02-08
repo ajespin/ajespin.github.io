@@ -113,3 +113,6 @@ p {
 	.navbar-inverse .navbar-nav>li>a {
 	    color: #fdfbfb;
 	}
+	.skillbars{
+		padding-top: 1rem;
+	}
