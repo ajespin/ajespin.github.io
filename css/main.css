@@ -1,0 +1,87 @@
+.h1,.h2.h3,.h4{
+
+}
+.nav {
+    font-size: larger;
+    padding-top: 12px;
+    padding-left: 20%;
+    margin-bottom: 0;
+    list-style: none;
+}
+#About{
+	margin-top: 1.5cm;
+}
+#foto{
+width: 150px
+}
+
+ol, ul {
+padding:0cm;
+}
+li{
+
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+
+}
+thead{
+	font-weight:bold;
+}
+
+.title-sections {
+    font-size: 250%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    border-top: 0cm;
+    margin-top: 0rem;
+    text-align: center;
+}
+.tablatop{
+	padding: 0cm;
+	margin: 0cm;
+	border: 0cm;
+}
+thead{
+	font-weight:bold;
+}
+
+.cuerpo{
+	padding:10%;
+	padding-top: 0cm;
+}
+
+p {
+    font-size: larger;
+    padding: 5%;
+    padding-left: 16%;
+    background: url(../images/fotoantonio.jpg) left/6rem;
+    background-repeat: no-repeat;
+}
+
+	.skillbars{
+		padding-top: 1rem;
+	}
+
+	.forma{
+		padding-top: 2rem;
+	}
+
+.info{
+	text-align: left;
+}
+button, input, select, textarea {
+    font-family: cursive;
+    font-size: x-small;
+    line-height: 10px;
+}
+#linke {
+    padding-left: 10px;
+}
