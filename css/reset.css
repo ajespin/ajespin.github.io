@@ -124,3 +124,11 @@ p {
 	.nav>li>a>img {
 	    max-width: 25px;
 	}
+.info{
+	text-align: left;
+}
+button, input, select, textarea {
+    font-family: cursive;
+    font-size: x-small;
+    line-height: 10px;
+}

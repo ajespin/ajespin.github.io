@@ -1,145 +1,203 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <meta charset="UTF-8">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+  <script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js"
+              data-dojo-config="async: true"></script>
   <title>Curriculum Antonio Jesus Espin Mena</title>
   <link rel="stylesheet" href="css/reset.css">
+<script src="//ajax.googleapis.com/ajax/libs/dojo/1.10.4/dojo/dojo.js" data-dojo-config="async: true, isDebug: true"></script>
+<script>
+      require(["dojo/fx", "dojo/on", "dojo/dom", "dojo/domReady!"], function(fx, on, dom) {
 
+          var wipeInButton = dom.byId("wipeInButton");
+          var wipeOutButton = dom.byId("wipeOutButton");
+          var  wipeTarget = dom.byId("wipeTarget");
+          var wipeInButton2 = dom.byId("wipeInButton2");
+          var  wipeOutButton2 = dom.byId("wipeOutButton2");
+          var  wipeTarget2 = dom.byId("wipeTarget2");
+
+                      on(wipeInButton, "click", function(evt){
+                        fx.wipeIn({ node: wipeTarget }).play();
+                      });
+                      on(wipeOutButton, "click", function(evt){
+                        fx.wipeOut({ node: wipeTarget }).play();
+                      });
+                      on(wipeInButton2, "click", function(evt){
+                        fx.wipeIn({ node: wipeTarget2 }).play();
+                      });
+                      on(wipeOutButton2, "click", function(evt){
+                        fx.wipeOut({ node: wipeTarget2 }).play();
+                      });
+
+      });
+  </script>
 
 </head>
 
 <body>
 
   <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div>
-          <ul class="nav navbar-nav">
+    <div>
+      <ul class="nav navbar-nav">
+        <li><a href="#About">Antonio Jesús</a></li>
+        <li><a href="#ancla1">Experiencia Profesional</a></li>
+        <li><a href="#ancla2">Habilidades</a></li>
+        <li><a href="#ancla3">Educación</a></li>
+        <li><a href="#formulario">contacta</a></li>
+        <li><a href="https://www.linkedin.com/in/antonioespin/">
+        <img src="images/lnk.PNG" alt="Logo de linkedin">
+        </a></li>
+      </ul>
+    </div>
+  </nav>
 
-            <li><a href="#About">Antonio Jesús</a></li>
-
-            <li><a href="#ancla1">Experiencia Profesional</a></li>
-            <li><a href="#ancla2">Habilidades</a></li>
-            <li><a href="#ancla3">Educación</a></li>
-            <li><a href="#formulario">contacta</a></li>
-            <li><a href="https://www.linkedin.com/in/antonioespin/">
-              <img src="images/lnk.PNG" alt="Logo de linkedin">
-            </a></li>
-          </ul>
-        </div>
-    </nav>
-
-<div class="cuerpo">
-      <h1 id="About" class="title-sections"> Antonio Jesús Espín Mena </h1>
+  <div class="cuerpo">
+    <h1 id="About" class="title-sections"> Antonio Jesús Espín Mena </h1>
 
 
-      <p class="text-about">
-        Destacar alta capacidad de aprendizaje como técnico en topografía y Master GIS. me considero con alto nivel de exigencia y compromiso adeás de adaptación con nuevos software.
-        Alta experiencia en obra lineal, tanto diseño CAD, como técnicas de ejecución en campo. Adquiridas en proyectos desarrollados en España y EEUU.
-        Actualmente en formación GIS. Tanto en analisis GIS como en Arquitectura corporativa.
-      </p>
+    <p class="text-about">
+      Destacar alta capacidad de aprendizaje como técnico en topografía y Master GIS. me considero con alto nivel de exigencia y compromiso adeás de adaptación con nuevos software.
+      Alta experiencia en obra lineal, tanto diseño CAD, como técnicas de ejecución en campo. Adquiridas en proyectos desarrollados en España y EEUU.
+      Actualmente en formación GIS. Tanto en analisis GIS como en Arquitectura corporativa.
+    </p>
 
-      <hr>
-      <h1 class="title-sections" id="ancla1"> Experiencia profesional </h1>
+    <hr>
+    <h1 class="title-sections" id="ancla1"> Experiencia profesional </h1>
 
-      <table class="text-center">
+    <table class="text-center">
+
+      <tr>
+        <th><strong>Empresa</strong></th>
+        <th><strong>Puesto</strong></th>
+        <th><strong>Localización</strong></th>
+        <th><strong>Desde-Hasta</strong></th>
+
+      </tr>
 
         <tr>
-          <th><strong>Empresa</strong></th>
-          <th><strong>Puesto</strong></th>
-          <th><strong>Localización</strong></th>
-          <th><strong>Desde-Hasta</strong></th>
+            <td>EPSA internacional</td>
+            <td>Jefe topografía</td>
+            <td>Houston</td>
+            <td>Octubre 2014 - Octubre 2015 </td>
+            <td>
+              <button id="wipeInButton" type="button" class="btn btn-primary btn-xs">Mas info</button>
+              <button id="wipeOutButton" type="button" class="btn btn-primary btn-xs">Menos info</button>
+
+            </td>
         </tr>
-
         <tr>
-          <td>EPSA internacional</td>
-          <td>Jefe topografía</td>
-          <td>Houston</td>
-          <td>Octubre 2014 - Octubre 2014 </td>
+          <td colspan="4">
+
+          <div id="wipeTarget" class="red-block wipe" style="height: auto; overflow: hidden; display: none;">
+              <div class="info">- Director y coordinador de topografía.<br></div>
+              <div class="info">- Encargado de toma y calculo de cubicaciones.<br></div>
+              <div class="info">- Tecnicas de ejecución en obra.<br></div>
+              <div class="info">- Diseño para el guiado de maquinaria (Buldóceres GPS, niveladoras 3D).<br></div>
+              <div class="info">- Diseño y modificaciones de proyecto en CAD.<br></div>
+              <div class="info">- Producción.</div>
+         </div>
+         </td>
         </tr>
         <tr>
           <td>EPSA internacional </td>
           <td>Topógrafo</td>
           <td>Zamora</td>
           <td>Julio 2014 - Octubre 2014</td>
+          <td>   <button id="wipeInButton2" type="button" class="btn btn-primary btn-xs">Mas info</button>
+          <button id="wipeOutButton2" type="button" class="btn btn-primary btn-xs">Menos info</button>
+          </td>
+      </tr>
+      <tr>
+        <td colspan="4">
+
+        <div id="wipeTarget2" class="red-block wipe" style="height: auto; overflow: hidden; display: none;">
+            <div class="info">- Toma datos en campo.<br></div>
+            <div class="info">- Cubicacion mensual.<br></div>
+            <div class="info">- Producción, digitalización de la producción diaria.<br></div>
+
+       </div>
+       </td>
         </tr>
       </table>
-      <hr>
-      <h2 class="title-sections" id="ancla2">Habilidades</h2>
-      <div class="skillbars">
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                SIG:ArcGIS, Plataforma ESRI.
-          </div>
-        </div>
 
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-            ISPOL:Año y medio con EPSA, cubicaciones, Diseño, Replanteo...
-          </div>
-        </div>
 
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-            Trimble Businenes Center:Trato de datos para exportación al guiado de maquinaria.
-          </div>
-        </div>
-
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
-            CAD: AutoCAD, MicroStation
-          </div>
+    <hr>
+    <h2 class="title-sections" id="ancla2">Habilidades</h2>
+    <div class="skillbars">
+      
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+          ISPOL:Año y medio con EPSA, cubicaciones, Diseño, Replanteo...
         </div>
       </div>
 
-      <hr>
-      <h2 class="title-sections" id="ancla3">Educación</h2>
-      <table>
-        <thead class="text-center">
-          <td><strong>Titulo</strong></td>
-          <td><strong>Entidad</strong></td>
-          <td><strong>Promoción</strong></td>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+          Trimble Businenes Center:Trato de datos para exportación al guiado de maquinaria.
+        </div>
+      </div>
 
-        </thead>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">
+          CAD: AutoCAD, MicroStation
+        </div>
+      </div>
+    </div>
 
-        <tr>
-          <td>Master en GIS</td>
-          <td>Esri España</td>
-          <td> 2016-2017</td>
+    <hr>
+    <h2 class="title-sections" id="ancla3">Educación</h2>
+    <table>
+      <tr class="text-center">
+        <th><strong>Titulo</strong></th>
+        <th><strong>Entidad</strong></th>
+        <th><strong>Promoción</strong></th>
 
-        </tr>
-        <tr>
-          <td>Ingeniería Tecnica en Topografía</td>
-          <td>Universidad de Jaén</td>
-          <td> 2010-2013</td>
-        </tr>
-      </table>
-      <hr>
-      <h2 class="title-sections" id="formulario">Contacta</h2>
-      <form class="forma" action="mailto:antoniojesusespin@gmail.com" method="GET">
+      </tr>
+
+      <tr>
+        <td>Master en GIS</td>
+        <td>Esri España</td>
+        <td> 2016-2017</td>
+      </tr>
+      <tr>
+        <td>Ingeniería Tecnica en Topografía</td>
+        <td>Universidad de Jaén</td>
+        <td> 2010-2013</td>
+      </tr>
 
 
-          <select id="topic" name="topic">
-            <option>-- Elige un tema --</option>
-            <option value="proposal">Propuesta</option>
-            <option value="report">Reporte</option>
-            <option value="other">Otro</option>
-          </select>
+    </table>
+    <hr>
 
-          <label for="subject">Asunto: </label>
-          <input id="subject" name="subject" type="text">
+    <h2 class="title-sections" id="formulario">Contacta</h2>
 
-          <label for="body">Cuerpo:</label>
-          <textarea id="body" name="body"></textarea>
+    <form class="form-group" action="mailto:antoniojesusespin@gmail.com" method="GET">
+      <div class="form-group">
+        <label>Asunto:</label>
+        <input id="subject" type="text" class="form-control" name="subject" placeholder="Introduce asunto">
+      </div>
+      <div class="form-group">
+        <label>cuerpo</label>
+        <input for="body" name="body" class="form-control" id="body" placeholder="Introduce cuerpo">
+      </div>
+      <button type="submit">Enviar</button>
+    </form>
 
-          <button type="submit">Enviar</button></form>
+    <hr>
+    <h2 class="title-sections" id="ancla4">Perfiles sociales</h2>
 
-      <hr>
-      <h2 class="title-sections" id="ancla4">Perfiles sociales</h2>
+    <a href="https://www.linkedin.com/in/antonioespin/">Linkedin</a><br>
 
-      <a href="https://www.linkedin.com/in/antonioespin/">Linkedin</a><br>
+  </div>
 
-</div>
 </body>
 </html>
